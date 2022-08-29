@@ -13,11 +13,11 @@ void loop() {
   
   if(Serial.available()>0)
   {
-    Serial.println(array.getArrayData(0));
+    Serial.println(array.getArrayData(7));
     int sizeOption2 = array.getSize();
     Serial.println(sizeOption2);
-    array.removeArrayItem(0);
-    Serial.println(array.getArrayData(0));
+    array.removeArrayItem(7);
+    Serial.println(array.getArrayData(7));
 
   }
 }
