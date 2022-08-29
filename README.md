@@ -4,7 +4,7 @@ all solutions you can find are turning around allocating memory and using pointe
 has only 2kb of ram and using pointers or allocating memory means that the memory you allocate can not be used by other things at run time
 yes, you can free this memory but you cannot guarantee that the ram will not be full and the arduino will not crash.
 
-##What to do then ?
+## What to do then ?
 the answer to this is pretty simple, instead of thinking in how to define an unknown size array, we should just create a limited size array and shift it through
 a source of data that can hold a large size of values without problem, just like taking multiple photos because one photo can't cover everybody
 https://github.com/Riadam/ViewPort-Array-Shifter-for-Arduino-Uno/blob/master/SwYJTpVXL3qUKYLOZaRf_enhancedbuzz10300136345906812.jpg
