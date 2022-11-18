@@ -7,7 +7,7 @@ private:
     // a fixed size array of 5 in my case (depending on the amount of data you expect)
     String _viewPortArray[5];
     int _size = 0;
-    // Methode to fill the array
+    // Method to fill the array
     bool shiftArray(int position);
 public:
     ArrayShifter(/* args */);
